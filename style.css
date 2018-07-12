@@ -50,6 +50,15 @@ img {
   max-width: 100%;
 }
 
+hr {
+  display: block;
+  margin: 0 auto;
+  width: 10em;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #e75152;
+}
+
 
 /*
 *
@@ -98,7 +107,7 @@ Banner Section
 .banner {
   background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,255,255,0.6)), url("images/header_photo.jpg") no-repeat top;
   background-size: cover;
-  background-position-y: 50%;
+  background-position-y: 65%;
   padding: 8em 0 3em 8em;
   position: relative;
 }
@@ -126,10 +135,39 @@ Banner Section
   border: 2px solid #e75152;
   color: #595858;
   font-weight: 700;
-  /* text-align: center;
-  text-align-last: center; */
   background: url("images/Vector_down_arrow_link.svg") no-repeat right;
   background-color: rgba(255,255,255,0.5);
   -webkit-appearance:none;
   -moz-appearance:none;
 }
+
+/*
+*
+Description Section
+*
+*/
+
+.content {
+  width: 100%;
+  padding: 0 6em;
+}
+
+.description {
+  width: 100%;
+  padding: 2.4em 0;
+}
+
+.description p {
+  max-width: 100%;
+  padding: 1em 3em;
+  font-family: Source Sans Pro;
+  color: #515151;
+  text-align: center;
+}
+
+
+/*
+*
+Packages Section
+*
+*/

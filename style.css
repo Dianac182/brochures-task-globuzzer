@@ -36,6 +36,7 @@ h3 {
   margin: 0;
 }
 
+
 ul {
   list-style: none;
   padding: 0;
@@ -159,7 +160,7 @@ Description Section
 
 .description p {
   max-width: 100%;
-  padding: 1em 3em;
+  padding: 1em 1em;
   font-family: Source Sans Pro;
   color: #515151;
   text-align: center;
@@ -171,3 +172,97 @@ Description Section
 Packages Section
 *
 */
+
+.packages__heading {
+  padding: 0.7em 2em;
+  border-bottom: 2px solid #e75152;
+}
+
+.red-letters {
+  color: #e75152;
+}
+
+.grey-letters {
+  color: #515151;
+}
+
+.packages {
+  padding: 1.5em 2.5em;
+}
+
+.packages__types {
+  margin: 5em 0;
+  padding: 1em 2em;
+  background-color: #e75152;
+}
+
+.packages__item {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  margin-right: calc(23%/2);
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px 0px #595858;
+  background-color: #fff;
+}
+
+.packages__item:last-child {
+  margin-right: 0;
+}
+
+.packages__brochure {
+  position: absolute;
+  top: -90px;
+  right: -90px;
+  width: 170%;
+}
+
+.packages__area {
+  padding-top: 3em;
+}
+
+.packages__title {
+  padding-left: 1.5em;
+  font-weight: 700;
+}
+
+.packages__area p {
+  line-height: 1.5em;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #6a6a6a;
+  margin: 0;
+  padding: 3.5em 2.5em;
+}
+
+.packages__area div {
+  color: #e75152;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1em;
+}
+
+.bold {
+  font-weight: 900;
+  font-size: 1.4em;
+}
+
+.packages__buttons {
+  padding: 1.8em 0.5em 1.3em;
+}
+
+.packages__buttons__items {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  font-weight: 700;
+  color: #e75152;
+  background-color: #fffefe;
+  box-shadow: 5px 0 5px -5px #333, 0 5px 5px -5px #333;
+  border: 2px solid #e75152;
+}
+
+.read-more {
+  color: #fffefe;
+  background-color: #e75152;
+}

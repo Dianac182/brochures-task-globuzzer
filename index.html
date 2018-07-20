@@ -8,6 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
   </head>
 	<body>
@@ -58,9 +59,10 @@
 						<span class="red-letters">OUR</span>
 						<span class="grey-letters">PACKAGES</span>
 					</h3>
+					<div class="brochure_mockup"></div>
 					<ul class="packages__types">
 						<li class="packages__item">
-							<img class="packages__brochure" src="images/brochure_mockup.png" alt="Image of a Brochure">
+							<!-- <img class="packages__brochure" src="images/brochure_mockup.png" alt="Image of a Brochure"> -->
 							<div class="packages__area">
 								<h3 class="packages__title red-letters">6 HOURS</h3>
 								<h3 class="packages__title grey-letters">PACKAGE</h3>
@@ -76,7 +78,7 @@
 							</div>
 						</li>
 						<li class="packages__item">
-							<img class="packages__brochure" src="images/brochure_mockup.png" alt="Image of a Brochure">
+							<!-- <img class="packages__brochure" src="images/brochure_mockup.png" alt="Image of a Brochure"> -->
 							<div class="packages__area">
 								<h3 class="packages__title red-letters">1 DAY</h3>
 								<h3 class="packages__title grey-letters">PACKAGE</h3>
@@ -92,7 +94,7 @@
 							</div>
 						</li>
 						<li class="packages__item">
-							<img class="packages__brochure" src="images/brochure_mockup.png" alt="Image of a Brochure">
+							<!-- <img class="packages__brochure" src="images/brochure_mockup.png" alt="Image of a Brochure"> -->
 							<div class="packages__area">
 									<h3 class="packages__title red-letters">2 DAYS</h3>
 									<h3 class="packages__title grey-letters">PACKAGE</h3>
@@ -102,8 +104,8 @@
 									<span class="bold">99€</span>
 								</div>
 								<div class="packages__buttons">
-									<button class="packages__buttons__items choose">Choose</button>
-									<button class="packages__buttons__items read-more">Read more</button>
+									<button class="button choose">Choose</button>
+									<button class="buttons read-more">Read more</button>
 								</div>
 							</div>
 						</li>
@@ -111,21 +113,41 @@
 				</section>
 
 				<section class="know-more">
-					<h3 class="know-more__title">WANT TO KNOW MORE?</h3>
-					<video class="know-more__video" src=""></video>
+					<h3 class="know-more__heading">WANT TO KNOW MORE?</h3>
+					<video class="know-more__video">
+						<source src="images-videos/The Galapagos Islands Are a Pristine Paradise _ National Geographic.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					</video>
+					<p>This video is cortesy of <a href="https://www.youtube.com/channel/UCpVm7bg6pXKo1Pr6k5kxG9A">National Geographic</a></p>
 				</section>
 			</section>
 		</main>
 
 		<footer>
-			<section class="contact">
-				<h3 class="contact__title">CONTACT US</h3>
-				<ul class="contact__details">
-					<li class="contact__details__item"><p>Lindstedtsvägen 24, 4thFloor, 114 28 Stockholm, Sweden</p></li>
-					<li class="contact__details__item"><p>rami@globuzzer.com</p></li>
-					<li class="contact__details__item"><p>+46 73 555 5 134</p></li>
-				</ul>
-				<button class="contact__button">Drop us a line</button>
+			<section class="contact-us">
+				<h3 class="contact-us__heading">
+					<span class="white-letters">CONTACT</span>
+					<span class="grey-letters">US</span>
+				</h3>
+				<div class="contact-us__container">
+					<div class="contact-us__item white-letters address">
+						<i class="fas fa-map-marker-alt grey-letters"></i>
+						<p>Lindstedtsvägen 24, 4thFloor, 114 28 Stockholm, Sweden</p>
+					</div>
+					<div class="contact-us__container" id="container2">
+						<div class="contact-us__item white-letters email">
+							<i class="fas fa-envelope grey-letters"></i>
+							<p>rami@globuzzer.com</p>
+						</div>
+						<div class="contact-us__item white-letters telephone">
+							<i class="fas fa-phone icon-flip-vertical grey-letters"></i>
+							<p>+46 73 555 5 134</p>
+						</div>
+					</div>		
+					<div class="contact-us__button">
+						<button class="buttons drop-us-button">Drop us a line</button>
+					</div>
+				</div>
 			</section>
 
 			<section class="social-media">

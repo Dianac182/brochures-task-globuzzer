@@ -328,7 +328,6 @@ Contact-us Section
 
 .contact-us__item {
   font-family: Source Sans Pro;
-  font-weight: 400;
   line-height: 1.7em;
   font-size: 0.7em;
 }
@@ -365,4 +364,34 @@ Contact-us Section
   background-color: #d72e44;
   color: #fff;
   border-color: #c12c41;
+}
+
+
+/*
+*
+Social-media Section
+*
+*/
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em 5em;
+  background-color: #515151;
+  color: #e7e7e7;
+  font-size: 0.6em;
+}
+
+.social-media__item {
+  display: inline-block;
+}
+
+.social-media__item a{
+  padding-right: 1em;
+  color: #e7e7e7;
+}
+
+.social-media__list a {
+  font-size: 1.5em;
 }

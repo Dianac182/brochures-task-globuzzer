@@ -1,6 +1,6 @@
 # Landing Page Globuzzer
 
-This is a task that consist of replicating the [Landing Page Muckup](https://github.com/Dianac182/brochures-task-globuzzer/blob/master/1%20LANDING%20PAGE.jpg) of **Globuzzer**, using HTML and CSS.
+This is a task that consist of replicating the [Landing Page Mockup](https://github.com/Dianac182/brochures-task-globuzzer/blob/master/1%20LANDING%20PAGE.jpg) of **Globuzzer**, using HTML and CSS.
 
 ## Contribution
 
